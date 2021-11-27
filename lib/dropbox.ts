@@ -15,7 +15,7 @@ export async function fetchPlaylist(url: string): Promise<Response> {
   // replace with domain
   const modifiedBody = body.replace(
     /previews.dropbox.com/g,
-    'dropbox.hekmathamidi.me'
+    process.env.API_URL!
   );
 
   return new Response(modifiedBody, {
