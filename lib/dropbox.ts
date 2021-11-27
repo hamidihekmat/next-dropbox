@@ -29,7 +29,13 @@ export async function fetchHLS(url: string): Promise<Response> {
   const response = await fetch(url, {
     headers,
   });
-  return response;
+  const cacheHeaders = response.headers;
+  cacheHeaders.set('cache-control', 's-maxage=3600');
+  return new Response(response.body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers: cacheHeaders,
+  });
 }
 
 export const createMasterPlaylistLink = (pathname: string) => {

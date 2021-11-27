@@ -5,3 +5,17 @@ export const url =
   'https://previews.dropbox.com/p/hls_master_playlist/ABXzOB9eIfvuU9CGbw3IwV_CkoW17Ef81JIfiQ2MgtF2CyyTQJp9eJIV-yr8HAabix1kjBIAPXOfBJBKZ16Vrm5Bq760MstCmhQZPLw5JCfehWD13tcHH_8XVaNhYeclSXmrJPERVxl0MvVx5FCe4VoXjQ6mevqu4oxGgLJuVQGJdc_FYss9qHKsU74vl_7daTRzl_HY2KaoYukd9BlGzHh-DDZQrP09U-B5Pk1nE5cTA4CurkCx-X5Zs-I_dwt0wBEV89DApMeN5srKWnFN9jHASrqTX4JWz5tFgSHbUFAX5A/p.m3u8';
 
 export const baseUrl = 'https://previews.dropbox.com';
+
+// test
+export const playlist = {
+  title: 'Spider-Man: Far from Home',
+  description:
+    'Following the events of Avengers: Endgame (2019), Spider-Man must step up to take on new threats in a world that has changed forever.',
+  image:
+    'https://m.media-amazon.com/images/M/MV5BMTVkOGY3Y2EtMGU2OS00YzM1LWFkZGEtZjE0MjBlOWJlZjVmXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg',
+  sources: [
+    {
+      file: 'http://next-dropbox.vercel.app/api/stream/p/hls_master_playlist/ABWsFnzbR5sohbOnG_3zbODygNaJooO4EHiRFaHnLX1MV44bd3r7TkHwC8_n8IMgzBVf-Bivmxuk99zFVIhebseqKV-BRssC4KDuX6OCl-lxm7hTQHBoT2Nssyu3jKRLTrWLKyRPg2yCPdv_8qCSPJazMdjB4NINNSYKIIdNYBeoqLH8s50e7HXU5bzyCORf8g0YXjuZqRVmWEWwxNbmspz-jKI5F3r94SN1p9eOmhKni896lbvKLsiDZbG85vYW-n2S4XgtvG8hLjevlDBe-gnyIh-2NMX6E0v73Vg4E3s5joONlNyqJ1XFu1KAoPPLZEk/p.m3u8',
+    },
+  ],
+};
