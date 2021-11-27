@@ -1,0 +1,7 @@
+export const cookie =
+  'locale=en; last_active_role=work; db-help-center-uid=ZXlKMllXeDFaU0k2SUhzaWRXbGtJam9nTWpNNE1UWXdOREE1Tm4wc0lDSnphV2R1WVhSMWNtVWlPaUFpUVVGRVQwdGZjMTl2TTFwRFR6ZFBUSEZxUWtWQmNtOVJhV0ZOTlRsM05tWTRMVmRNUlhZeE5ISTJVbXRoVVNKOQ==; SnapABugHistory=1#; SnapABugUserAlias=#; _evidon_consent_cookie={"consent_date":"2021-10-13T22:04:46.752Z","categories":{"1":true},"vendors":{"1":{"81":true,"249":true,"257":true,"414":true,"758":true}},"cookies":{"1":true},"consent_type":1}; __Secure-dbx_consent={"consentType":1,"consentDate":"2021-10-13T22:04:46.768Z","expireDate":"2022-04-13T22:04:46.768Z","consentMonths":6,"categories":{"all":true},"userInteracted":true,"numDots":1}; t=mVWYmeBiHG53P2wrBsuDxv-q; bjar=W3sidWlkIjogMjM4MTYwNDA5NiwgInNlc3NfaWQiOiAzMDEwODYxODAyMzA2MzUzMjI0ODk4ODI1OTk5Mzk3MTY2NTA3MDUsICJyb2xlIjogIndvcmsiLCAidGVhbV9pZCI6IDkzNjE0NzMsICJleHBpcmVzIjogMTY0MDU1ODUwMiwgInVzZXJfZ2lkIjogIkFBMnAyVi0tSG1mNjl3cXo5Q1R4YkhxcCJ9XQ==; blid=AABBQ1ziRE6jwWjaQKg-wKjS6GS26UCBHANgX_0zQNU21A';
+
+export const url =
+  'https://previews.dropbox.com/p/hls_master_playlist/ABXzOB9eIfvuU9CGbw3IwV_CkoW17Ef81JIfiQ2MgtF2CyyTQJp9eJIV-yr8HAabix1kjBIAPXOfBJBKZ16Vrm5Bq760MstCmhQZPLw5JCfehWD13tcHH_8XVaNhYeclSXmrJPERVxl0MvVx5FCe4VoXjQ6mevqu4oxGgLJuVQGJdc_FYss9qHKsU74vl_7daTRzl_HY2KaoYukd9BlGzHh-DDZQrP09U-B5Pk1nE5cTA4CurkCx-X5Zs-I_dwt0wBEV89DApMeN5srKWnFN9jHASrqTX4JWz5tFgSHbUFAX5A/p.m3u8';
+
+export const baseUrl = 'https://previews.dropbox.com';
