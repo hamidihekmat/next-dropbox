@@ -449,9 +449,3 @@ type TrackSource = {
   label: string;
   kind: 'subtitles' | 'captions';
 };
-
-interface customWindow extends Window {
-  jwplayer: JWPlayerStatic;
-}
-
-declare const window: customWindow;
