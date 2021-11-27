@@ -439,7 +439,7 @@ export type Playlist = {
 
 type MediaSource = {
   file: string;
-  type?: 'video/mp4', | 'video/m3u';
+  type?: 'video/mp4' | 'video/m3u';
   label?: '1080p' | '720p';
   default?: boolean;
 };
