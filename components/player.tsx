@@ -2,15 +2,14 @@ import type { JWPlayerStatic, Playlist } from 'types/jwplayer';
 import { useState, useEffect, useRef, FC } from 'react';
 import Script from 'next/script';
 
+interface PlayerProp {
+  playlist: Playlist;
+}
 interface customWindow extends Window {
   jwplayer: JWPlayerStatic;
 }
 
 declare const window: customWindow;
-
-export interface PlayerProp {
-  playlist: Playlist;
-}
 
 export const JWPlayer: FC<PlayerProp> = ({ playlist }) => {
   const ref = useRef<HTMLDivElement>(null);

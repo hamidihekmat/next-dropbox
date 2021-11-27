@@ -13,3 +13,8 @@ export type PlaylistType = {
   type: 'audio' | 'video';
   size?: string;
 };
+interface customWindow extends Window {
+  jwplayer: JWPlayerStatic;
+}
+
+declare const window: customWindow;
