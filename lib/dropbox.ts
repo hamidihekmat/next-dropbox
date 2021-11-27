@@ -29,7 +29,6 @@ export async function fetchHLS(url: string): Promise<Response> {
   const response = await fetch(url, {
     headers,
   });
-  response.headers.append('CF-Worker', 'Hello from Worker');
   return response;
 }
 
