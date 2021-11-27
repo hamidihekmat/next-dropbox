@@ -16,6 +16,7 @@ export const playlist = {
   sources: [
     {
       file: 'https://next-dropbox.vercel.app/api/stream/p/hls_master_playlist/ABWsFnzbR5sohbOnG_3zbODygNaJooO4EHiRFaHnLX1MV44bd3r7TkHwC8_n8IMgzBVf-Bivmxuk99zFVIhebseqKV-BRssC4KDuX6OCl-lxm7hTQHBoT2Nssyu3jKRLTrWLKyRPg2yCPdv_8qCSPJazMdjB4NINNSYKIIdNYBeoqLH8s50e7HXU5bzyCORf8g0YXjuZqRVmWEWwxNbmspz-jKI5F3r94SN1p9eOmhKni896lbvKLsiDZbG85vYW-n2S4XgtvG8hLjevlDBe-gnyIh-2NMX6E0v73Vg4E3s5joONlNyqJ1XFu1KAoPPLZEk/p.m3u8',
+      type: 'video/m3u',
     },
   ],
 };
