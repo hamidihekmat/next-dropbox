@@ -1,8 +1,9 @@
 import { NextPage } from 'next';
 import { FormEvent, useState } from 'react';
 import { Box } from 'components/Common';
-import { styled } from 'ui/stiches.config';
 import { JWPlayer } from 'components/Player';
+import { styled } from 'ui/stiches.config';
+
 // debug
 import { playlist } from 'lib/dropbox.config';
 
