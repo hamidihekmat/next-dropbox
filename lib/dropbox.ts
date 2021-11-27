@@ -29,9 +29,8 @@ export async function fetchHLS(url: string): Promise<Response> {
   const response = await fetch(url, {
     headers,
   });
-  const cacheResponse = response.clone();
-  cacheResponse.headers.set('cache-control', 'max-age=604800, s-maxage=604800');
-  return cacheResponse;
+  response.headers.append('CF-Worker', 'Hello from Worker');
+  return response;
 }
 
 export const createMasterPlaylistLink = (pathname: string) => {
