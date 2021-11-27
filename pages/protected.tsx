@@ -1,6 +1,7 @@
 import { NextPage } from 'next';
 import { useSession, getCsrfToken } from 'next-auth/react';
 import { useEffect, useState } from 'react';
+
 const Protected: NextPage = () => {
   const [token, setToken] = useState('');
   const { data: session } = useSession();
