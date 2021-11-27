@@ -11,7 +11,6 @@ const Dropbox: NextPage = () => {
     url: string;
     cookies: string;
   }>({ url: '', cookies: '' });
-  const [error, setError] = useState(false);
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     console.log(formValues);
