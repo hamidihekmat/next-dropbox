@@ -29,6 +29,7 @@ export async function fetchHLS(url: string): Promise<Response> {
   const response = await fetch(url, {
     headers,
   });
+  response.headers.set('cache-control', 'max-age=604800, s-maxage=604800');
   return response;
 }
 
