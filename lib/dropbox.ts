@@ -1,14 +1,17 @@
 import { baseUrl, cookie } from './dropbox.config';
 
-const headers = {
-  'User-Agent':
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36',
-  Cookie: cookie,
-};
+const agent =
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36';
 
-export async function fetchPlaylist(url: string): Promise<Response> {
+export async function fetchPlaylist(
+  url: string,
+  userAgent: string | null
+): Promise<Response> {
   const response = await fetch(url, {
-    headers,
+    headers: {
+      'User-Agent': userAgent ?? agent,
+      Cookie: cookie,
+    },
   });
   console.log(url);
   const body = await response.text();
@@ -25,9 +28,15 @@ export async function fetchPlaylist(url: string): Promise<Response> {
   });
 }
 
-export async function fetchHLS(url: string): Promise<Response> {
+export async function fetchHLS(
+  url: string,
+  userAgent: string | null
+): Promise<Response> {
   const response = await fetch(url, {
-    headers,
+    headers: {
+      'User-Agent': userAgent ?? agent,
+      Cookie: cookie,
+    },
   });
   return response;
 }
