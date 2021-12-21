@@ -15,7 +15,7 @@ export const playlist = {
     'https://m.media-amazon.com/images/M/MV5BMTVkOGY3Y2EtMGU2OS00YzM1LWFkZGEtZjE0MjBlOWJlZjVmXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg',
   sources: [
     {
-      file: 'https://next-dropbox.b-cdn.net/api/stream/p/hls_master_playlist/ABZBRI7YeSVvek-6_Xfnnpp-BOeE53soNBP6oPEAX-PYnL17SnHcZ8qVRFOG81kahimRQ7PO0gNAnrX5ZfrXOU2LlGuBiVS7HzFU68IaIkhNKdRYT0uCIeeS00ZycVbIXmzMqcHxCXhXESqmo6zCqZK9aXfq_21aRgK-FwIp7076UXfZTevOj3ha1GPv-08gDIewZH7v8Yt80jc4JtLs5Ts4I919ltgEQ3BT7kcl551kQuLGHxxdR8e358xwePuZlHI7pF13cNF-N03TgjI9ZRSHobmXDaJngIoF9pKxDRubrA/p.m3u8',
+      file: 'https://next-dropbox.b-cdn.net/api/stream/p/hls_master_playlist/ABbqwewL3dx1kucxRxEqqw6eUqPz1NWpfH6APaJMQI9q3NumipWzx0z3YGSNIXfxO5qIaJ0EEZRl_4sGwA1I7o5LtAXJNMAS9to_u5sGS0LjbHd_NSmiKg09WNBurM40bx2hbxolcu5uQImqoPo7SuXgQfjGDocA4EwjIadsYxjSGqez86Dm92RatYg6EvXQdSXpyPny4i1GLOgERBbRaS-DnxP7BvOk8Ph2ccF_r1snblMtMOSo4Cx2GrFfX5OKxwNm3mT1Qpw8Rz0ZByueMUdCch3LskZVBZniFT_LWdU7_A/p.m3u8',
     },
   ],
 };
